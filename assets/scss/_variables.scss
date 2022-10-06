@@ -1,0 +1,6 @@
+// $primary : indigo;
+// ^cosi si dichiara una variabile scss va importata prima di bootstrap in questo modo 
+// le variabili che richiama butstrap con lo stesso nome non pora richiamarle
+
+// $light: lighten($primary, 50%); schiarisce il colore primary
+// $dark: darken(primary, 20%); scurisce il colore primary
