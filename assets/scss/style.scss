@@ -21,3 +21,7 @@
 .carosello-img {
     @include immaginiPerCarosello;
 }
+
+.smll-fnt {
+    @include smallFont;
+}
