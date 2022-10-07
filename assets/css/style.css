@@ -10775,3 +10775,11 @@ textarea.form-control-lg {
   width: 80px;
   height: 80px;
 }
+
+.img-bkgrd {
+  background-image: url(../sfondo/sfondo-header.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
