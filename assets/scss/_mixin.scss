@@ -1,7 +1,6 @@
-// @mixin square {
-//  width: 100px; 
-//  height: 100px;  
-// }
-// ^creo una o più regole css da poter riutilizzare richiamando con @include e nome 
-// dentro un tag css
+ @mixin square {
+  width: 80px; 
+  height: 80px;  
+ }
+
 
