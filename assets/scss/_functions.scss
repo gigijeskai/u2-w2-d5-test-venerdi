@@ -1,0 +1,20 @@
+// $light-background : white;
+// $light-text : indigo;
+// $dark-background : black;
+// $dark-text : yellow;
+
+// @mixin color-mode ($light-theme: true){
+//     @if $light-theme {
+//         background-color: $light-background;
+//         color: $light-text;
+//     } @else {
+// background-color: $dark-background;
+// color: $dark-text;
+//     }
+// }
+// .banner {
+//     @include color-mode($light-theme: true);
+//     body.dark & {
+//       @include color-mode(-theme)($light-theme: false);
+//     }
+//   }
