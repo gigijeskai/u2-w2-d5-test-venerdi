@@ -1,3 +1,17 @@
 @import "../scss/variables";
+// ^import per le variabili personalizzate
+
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+// ^import di bootstrap
+
+
+
 @import "../scss/mixin";
+// ^import per i mixin
+
+
+
+@import "../scss/functions"
+// ^import per le funzioni
