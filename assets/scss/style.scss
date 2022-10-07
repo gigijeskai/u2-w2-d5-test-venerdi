@@ -25,3 +25,9 @@
 .smll-fnt {
     @include smallFont;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+

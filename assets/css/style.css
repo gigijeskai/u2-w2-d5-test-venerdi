@@ -10792,3 +10792,8 @@ textarea.form-control-lg {
 .smll-fnt {
   font-size: 10px;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
