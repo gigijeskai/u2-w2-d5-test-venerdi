@@ -17,3 +17,7 @@
 .img-bkgrd {
   @include imageBackground;  
 }
+
+.carosello-img {
+    @include immaginiPerCarosello;
+}

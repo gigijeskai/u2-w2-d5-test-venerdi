@@ -4,11 +4,15 @@
  }
 
  @mixin imageBackground {
-    background-image: url(../sfondo/sfondo-header.jpg);
+    background-image: url(../sfondo-header/sfondo-header.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
  }
 
+ @mixin immaginiPerCarosello {
+    height: 400px;
+    width: 600px;
+ }
 
