@@ -8,168 +8,170 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top border border-b-primary-5">
-      <div class="container-fluid mx-5">
-        <a class="navbar-brand text-primary" href="#">Lorem</a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light sticky-top border border-b-primary-5">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand text-primary" href="#">Lorem</a>
 
-        <button onclick="darkMode()" type="button" class="btn btn-dark">Dark</button>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-primary" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-primary" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled text-primary" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+          <button onclick="darkMode()" type="button" class="btn btn-dark">Dark</button>
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-primary" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
 
-            <li class="icon text-primary mt-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                <path
-                  d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
-                />
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                />
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
-                <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
-                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
-              </svg>
-            </li>
-          </ul>
+              <li class="icon text-primary mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                  <path
+                    d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+                </svg>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- ^^navbar -->
-
+      </nav>
+      <!-- ^^navbar -->
+    </header>
     <!-- ----------------------- -->
-    <div class="sfondo container-fluid img-bkgrd mb-5">
-      <div class="jumbotron p-5">
-        <h1 class="display-4 text-center text-white">Lorem ipsum</h1>
+    <main>
+      <div class="sfondo container-fluid img-bkgrd mb-5">
+        <div class="jumbotron p-5">
+          <h1 class="display-4 text-center text-white">Lorem ipsum</h1>
 
-        <hr class="my-4" />
-        <h2 class="text-center text-white mt-5 mb-5">
-          Se non trovi le parole o le immagini da dare a un tuo sito non ti preoccupare, basta un semplice "Lorem ipsum" per i tuoi testi e un "Lorem picsum" per le tue immagini, al resto ci pensiamo
-          noi.
-        </h2>
-        <p class="text-center text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, placeat mollitia. Voluptates corporis sequi consequuntur sint totam amet, odio, culpa reiciendis, laudantium repellat a?
-          Dolorum at delectus quia possimus nostrum. Accusantium repellat tempora, dolores inventore minima aperiam consectetur, rerum sunt atque adipisci autem reiciendis cupiditate exercitationem.
-          Maiores, in repellat minima ea, obcaecati labore, recusandae sed quibusdam magni cum voluptatem corrupti. Eum beatae minus quam cumque ea, dolorum illum, similique possimus fugiat asperiores
-          animi vitae. Dolor voluptas tempore earum quidem ea iure architecto, dolorum itaque deleniti voluptatibus consectetur veniam sint illum.
+          <hr class="my-4" />
+          <h2 class="text-center text-white mt-5 mb-5">
+            Se non trovi le parole o le immagini da dare a un tuo sito non ti preoccupare, basta un semplice "Lorem ipsum" per i tuoi testi e un "Lorem picsum" per le tue immagini, al resto ci
+            pensiamo noi.
+          </h2>
+          <p class="text-center text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, placeat mollitia. Voluptates corporis sequi consequuntur sint totam amet, odio, culpa reiciendis, laudantium repellat a?
+            Dolorum at delectus quia possimus nostrum. Accusantium repellat tempora, dolores inventore minima aperiam consectetur, rerum sunt atque adipisci autem reiciendis cupiditate exercitationem.
+            Maiores, in repellat minima ea, obcaecati labore, recusandae sed quibusdam magni cum voluptatem corrupti. Eum beatae minus quam cumque ea, dolorum illum, similique possimus fugiat
+            asperiores animi vitae. Dolor voluptas tempore earum quidem ea iure architecto, dolorum itaque deleniti voluptatibus consectetur veniam sint illum.
+          </p>
+        </div>
+      </div>
+      <!-- ^sezione primo piano -->
+
+      <!-- ------------------------------ -->
+      <div class="container mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card mb-3 img-bkgrd">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/imagini carosello/persona-1.jpg" class="img-fluid rounded-start carosello-img" alt="..." />
+                  </div>
+                  <div class="col-md-8 align-self-center">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Mimmo</h5>
+                      <p class="card-text text-center">Lorem ipsum mi salva ogni volta dalla mia mancanza di inventiva.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3 img-bkgrd">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/imagini carosello/persona-2.webp" class="img-fluid rounded-start carosello-img" alt="..." />
+                  </div>
+                  <div class="col-md-8 align-self-center">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Alfio</h5>
+                      <p class="card-text text-center">Ormai è un'abitudine, anche in famiglia uso lorem ipsum.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3 img-bkgrd">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/imagini carosello/persona-3.jpg" class="img-fluid rounded-start carosello-img" alt="..." />
+                  </div>
+                  <div class="col-md-8 align-self-center">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Melo</h5>
+                      <p class="card-text text-center">Lorem ipsum riempie anche le mie giornate vuote.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- ^simpatico carosello -->
+
+      <!-- -------------------------------- -->
+      <div class="container mb-5">
+        <h2 class="text-center my-5">I nostri main sponsor</h2>
+        <p class="text-center text-danger smll-fnt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non harum distinctio, nostrum facilis culpa aperiam? Neque voluptate assumenda voluptatum eius, libero ipsam quam accusamus
+          facere. Voluptate sit dignissimos quo.
         </p>
-      </div>
-    </div>
-    <!-- ^sezione primo piano -->
-
-    <!-- ------------------------------ -->
-    <div class="container mb-5">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="row mb-5">
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-1.png" alt="" /></div>
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-2.png" alt="" /></div>
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-3.jpg" alt="" /></div>
+          <div class="col d-flex justify-content-center"><img class="logo" src="./assets/image-sponsor/logo-8.webp" alt="" /></div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./assets/imagini carosello/persona-1.jpg" class="img-fluid rounded-start carosello-img" alt="..." />
-                </div>
-                <div class="col-md-8 align-self-center">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Mimmo</h5>
-                    <p class="card-text text-center">Lorem ipsum mi salva ogni volta dalla mia mancanza di inventiva.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./assets/imagini carosello/persona-2.webp" class="img-fluid rounded-start carosello-img" alt="..." />
-                </div>
-                <div class="col-md-8 align-self-center">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Alfio</h5>
-                    <p class="card-text text-center">Ormai è un'abitudine, anche in famiglia uso lorem ipsum.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./assets/imagini carosello/persona-3.jpg" class="img-fluid rounded-start carosello-img" alt="..." />
-                </div>
-                <div class="col-md-8 align-self-center">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Melo</h5>
-                    <p class="card-text text-center">Lorem ipsum riempie anche le mie giornate vuote.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-4.png" alt="" /></div>
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/logo-5.png" alt="" /></div>
+          <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/logo-6.webp" alt="" /></div>
+          <div class="col d-flex justify-content-center"><img class="logo" src="./assets/image-sponsor/logo-7.png" alt="" /></div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-    <!-- ^simpatico carosello -->
-
-    <!-- -------------------------------- -->
-    <div class="container mb-5">
-      <h2 class="text-center my-5">I nostri main sponsor</h2>
-      <p class="text-center text-danger smll-fnt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non harum distinctio, nostrum facilis culpa aperiam? Neque voluptate assumenda voluptatum eius, libero ipsam quam accusamus
-        facere. Voluptate sit dignissimos quo.
-      </p>
-      <div class="row mb-5">
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-1.png" alt="" /></div>
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-2.png" alt="" /></div>
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-3.jpg" alt="" /></div>
-        <div class="col d-flex justify-content-center"><img class="logo" src="./assets/image-sponsor/logo-8.webp" alt="" /></div>
+      <!-- -- ^sponsor -->
+    </main>
+    <!-- ----------------------- -- -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col p-5 bg-primary"><p class="text-center text-white">© 1997 - 2022 TUB Network srl - P.Iva 16454421005</p></div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/sponsor-4.png" alt="" /></div>
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/logo-5.png" alt="" /></div>
-        <div class="col d-flex justify-content-center mb-4"><img class="logo" src="./assets/image-sponsor/logo-6.webp" alt="" /></div>
-        <div class="col d-flex justify-content-center"><img class="logo" src="./assets/image-sponsor/logo-7.png" alt="" /></div>
-      </div>
-    </div>
-    <!-- ^sponsor
-
-    ----------------------- -->
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col p-5 bg-primary"><p class="text-center text-white">© 1997 - 2022 TUB Network srl - P.Iva 16454421005</p></div>
-      </div>
-    </div>
-
+    </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/script/script.js"></script>
   </body>
